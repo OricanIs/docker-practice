@@ -1,0 +1,35 @@
+2017-07-21 11:33:37.764993 I | etcdmain: etcd Version: 2.3.6
+2017-07-21 11:33:37.765090 I | etcdmain: Git SHA: 128344c
+2017-07-21 11:33:37.765096 I | etcdmain: Go Version: go1.6.2
+2017-07-21 11:33:37.765101 I | etcdmain: Go OS/Arch: darwin/amd64
+2017-07-21 11:33:37.765349 I | etcdmain: setting maximum number of CPUs to 8, total number of available CPUs is 8
+2017-07-21 11:33:37.765374 W | etcdmain: no data-dir provided, using default data-dir ./default.etcd
+2017-07-21 11:33:37.766873 I | etcdmain: listening for peers on http://localhost:2380
+2017-07-21 11:33:37.767077 I | etcdmain: listening for peers on http://localhost:7001
+2017-07-21 11:33:37.767269 I | etcdmain: listening for client requests on http://localhost:2379
+2017-07-21 11:33:37.767430 I | etcdmain: listening for client requests on http://localhost:4001
+2017-07-21 11:33:37.768426 I | etcdserver: name = default
+2017-07-21 11:33:37.768439 I | etcdserver: data dir = default.etcd
+2017-07-21 11:33:37.768444 I | etcdserver: member dir = default.etcd/member
+2017-07-21 11:33:37.768449 I | etcdserver: heartbeat = 100ms
+2017-07-21 11:33:37.768452 I | etcdserver: election = 1000ms
+2017-07-21 11:33:37.768456 I | etcdserver: snapshot count = 10000
+2017-07-21 11:33:37.768466 I | etcdserver: advertise client URLs = http://localhost:2379,http://localhost:4001
+2017-07-21 11:33:37.768473 I | etcdserver: initial advertise peer URLs = http://localhost:2380,http://localhost:7001
+2017-07-21 11:33:37.768483 I | etcdserver: initial cluster = default=http://localhost:2380,default=http://localhost:7001
+2017-07-21 11:33:37.769795 I | etcdserver: starting member ce2a822cea30bfca in cluster 7e27652122e8b2ae
+2017-07-21 11:33:37.770598 I | raft: ce2a822cea30bfca became follower at term 0
+2017-07-21 11:33:37.770644 I | raft: newRaft ce2a822cea30bfca [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+2017-07-21 11:33:37.770651 I | raft: ce2a822cea30bfca became follower at term 1
+2017-07-21 11:33:37.772404 I | etcdserver: starting server... [version: 2.3.6, cluster version: to_be_decided]
+2017-07-21 11:33:37.776521 E | etcdserver: cannot monitor file descriptor usage (cannot get FDUsage on darwin)
+2017-07-21 11:33:37.782220 N | etcdserver: added local member ce2a822cea30bfca [http://localhost:2380 http://localhost:7001] to cluster 7e27652122e8b2ae
+2017-07-21 11:33:38.173279 I | raft: ce2a822cea30bfca is starting a new election at term 1
+2017-07-21 11:33:38.173348 I | raft: ce2a822cea30bfca became candidate at term 2
+2017-07-21 11:33:38.173362 I | raft: ce2a822cea30bfca received vote from ce2a822cea30bfca at term 2
+2017-07-21 11:33:38.173380 I | raft: ce2a822cea30bfca became leader at term 2
+2017-07-21 11:33:38.173395 I | raft: raft.node: ce2a822cea30bfca elected leader ce2a822cea30bfca at term 2
+2017-07-21 11:33:38.173783 I | etcdserver: setting up the initial cluster version to 2.3
+2017-07-21 11:33:38.173971 I | etcdserver: published {Name:default ClientURLs:[http://localhost:2379 http://localhost:4001]} to cluster 7e27652122e8b2ae
+2017-07-21 11:33:38.176752 N | etcdserver: set the initial cluster version to 2.3
+2017-07-21 19:51:32.719862 N | osutil: received terminated signal, shutting down...
